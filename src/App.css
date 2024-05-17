@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a9a8a8;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7d7c7c;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 7px;
+}
+
+/* Horizontal Handle */
+::-webkit-scrollbar-thumb:horizontal {
+    background: #a9a8a8;
+    border-radius: 4px;
+}
+
+/* Horizontal Handle on hover */
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #7d7c7c;
+}

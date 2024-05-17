@@ -1,0 +1,61 @@
+.btn {
+    background: #edf1f7;
+    color: #3f2dd7;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #3f2dd7;
+    transition: 0.2s ease-out;
+    z-index: -1;
+}
+
+.btn:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn-reverse {
+    background-color: #3f2dd7;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn-reverse::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.btn-reverse:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.btn-reverse:hover {
+    color: #3f2dd7;
+}
